@@ -1,7 +1,7 @@
 
 language.name=LAST DAYS
-language.region=ld
-language.code=en_ld
+language.region=LD
+language.code=en_LD
 
 gui.done=:(Done):
 gui.cancel=:(Cancel):
