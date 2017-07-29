@@ -10,7 +10,7 @@ LDctm\
 	0020 - Glass
         0022 - Lapis Lazuli Block
 	0024 - Sandstone
-        0035 - wool
+  
 	0042 - Iron Block
 	0044 - Stone Slab
 	0047 - Bookshelf
