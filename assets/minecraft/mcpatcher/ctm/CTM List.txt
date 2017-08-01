@@ -25,3 +25,5 @@ LDctm\
         0173 - Block of Coal
 ZeroLevelsCTM\
 	0095 - Stained Glass   -not in file?
+Gwolfski\
+	yellow carpet
