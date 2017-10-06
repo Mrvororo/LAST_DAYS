@@ -8,4 +8,4 @@ LAST DAYS
  * The [Third Thread](http://www.minecraftforum.net/topic/369814-) by [Croco15](http://www.minecraftforum.net/user/158674-)
  * The [Fourth (current) Thread](http://www.minecraftforum.net/topic/1059319-) by [dereksmith](http://www.minecraftforum.net/user/98378-)
 * **Downloads:**
- * [Home Page for Downloads and Info](http://zerolevels.github.io/LAST_DAYS/)
+ * [Home Page for Downloads and Info](http://sukar42.github.io/LAST_DAYS/)
