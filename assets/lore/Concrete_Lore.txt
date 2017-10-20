@@ -31,6 +31,6 @@
 
 [ ]Magenta: security camera
 
-[ ]Orange: something confusing and metal
+[X]Orange: something confusing and metal
 
 [X]White: Generic white wallpaper
