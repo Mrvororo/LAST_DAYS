@@ -1172,7 +1172,7 @@ item.dragon_breath.name=Mad Dragon's Breath
 item.elytra.name=TODO
 item.totem.name=TODO
 item.shulkerShell.name=Anti-Grav Turret Fragment
-item.ironNugget.name=TODO
+item.ironNugget.name=Scrap Bolts
 
 container.inventory=§aPersonal Information Dispenser
 container.hopper=§aItem Collector/Transporter
@@ -1229,9 +1229,9 @@ structure_block.size=Structure Size
 structure_block.integrity=Structure Integrity and Seed
 structure_block.include_entities=Include entities:
 structure_block.detect_size=Detect structure size and position:
-structure_block.button.detect_size=DETECT
-structure_block.button.save=SAVE
-structure_block.button.load=LOAD
+structure_block.button.detect_size=[DETECT]
+structure_block.button.save=[SAVE]
+structure_block.button.load=[LOAD]
 structure_block.show_air=Show invisible blocks:
 structure_block.show_boundingbox=Show bounding box:
 
@@ -1262,20 +1262,20 @@ entity.Mob.name=Creature
 entity.Monster.name=Enemy
 
 
-
+entity.Blaze,name=He-3 Excavator
 entity.Creeper.name=Huggatron
 entity.Skeleton.name=Bandit
 entity.Spider.name=Hall Monitor
 entity.Giant.name=Giant Lost
 entity.Zombie.name=Lost
-entity.Husk.name=TODO
+entity.Husk.name=Irradiated Lost
 entity.Slime.name=Mega Amoeba
 entity.Ghast.name=SecurAll
 entity.PigZombie.name=Mutated Scientist
 entity.Enderman.name=Experiment
 entity.Endermite.name=Madness Mite
 entity.Silverfish.name=Rust Roach
-entity.CaveSpider.He-3 Excavator
+entity.CaveSpider.B-Class Hall Monitor
 entity.LavaSlime.name=P.W.C.
 entity.MushroomCow.name=Funga Stoneback
 entity.Villager.name=Masked

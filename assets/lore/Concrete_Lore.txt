@@ -17,7 +17,7 @@
 
 [ ]Cyan: christmas lights
 
-[ ]silver: actual duct
+[X]silver: actual duct
 
 [X]grey: weathered plaster
 
