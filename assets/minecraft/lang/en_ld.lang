@@ -15,6 +15,9 @@ gui.no=:(Deny):
 gui.none=:(None):
 gui.all=:(All):
 
+gui.recipebook.moreRecipes=Right Click for more
+gui.recipebook.toggleRecipes.all=Showing all
+gui.recipebook.toggleRecipes.craftable=Showing craftable											   
 translation.test.none=Hello, world!
 translation.test.complex=Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!
 translation.test.escape=%%s %%%s %%%%s %%%%%s
@@ -263,20 +266,48 @@ multiplayer.player.joined.renamed=:(%s (formerly: %s) joined.server):
 multiplayer.player.left=:(%s.Left.Server):
 
 chat.cannotSend=:(Transmission_Blocked):
-chat.type.text=<%s> %s
+multiplayer.status.and_more=... and %s more ...
+multiplayer.status.cancelled=Cancelled
+multiplayer.status.cannot_connect=Can't connect to server
+multiplayer.status.cannot_resolve=Can't resolve hostname
+multiplayer.status.client_out_of_date=Client out of date!
+multiplayer.status.no_connection=(no connection)
+multiplayer.status.old=Old
+multiplayer.status.pinging=Pinging...
+multiplayer.status.server_out_of_date=Server out of date!
+multiplayer.status.unknown=???
+multiplayer.status.unrequested=Received unrequested status
+multiplayer.disconnect.authservers_down=Authentication servers are down. Please try again later, sorry!
+multiplayer.disconnect.banned=You are banned from this server.
+multiplayer.disconnect.duplicate_login=You logged in from another location
+multiplayer.disconnect.flying=Flying is not enabled on this server
+multiplayer.disconnect.generic=Disconnected
+multiplayer.disconnect.idling=You have been idle for too long!
+multiplayer.disconnect.illegal_characters=Illegal characters in chat
+multiplayer.disconnect.invalid_entity_attacked=Attempting to attack an invalid entity
+multiplayer.disconnect.invalid_player_movement=Invalid move player packet received
+multiplayer.disconnect.invalid_vehicle_movement=Invalid move vehicle packet received
+multiplayer.disconnect.ip_banned=You have been IP banned.
+multiplayer.disconnect.kicked=Kicked by an operator.
+multiplayer.disconnect.outdated_client=Outdated client! Please use %s
+multiplayer.disconnect.outdated_server=Outdated server! I'm still on %s
+multiplayer.disconnect.server_shutdown=Server closed
+multiplayer.disconnect.slow_login=Took too long to log in
+multiplayer.disconnect.unverified_username=Failed to verify username!																						 
+chat.type.text=<%s> %s					 
 chat.type.emote=* %s %s
 chat.type.announcement=[%s] %s
 chat.type.admin=[%s: %s]
 chat.type.achievement=%s has just earned the achievement %s
 chat.type.achievement.taken=%s has lost the achievement %s
 chat.link.confirm=:(Confirm.openwebsite?):
-chat.link.warning=:Never.Open.Links.from.Untrusted.People):
+chat.link.warning=(:Never.Open.Links.from.Untrusted.People):
 chat.copy=:(Copy.to.Clipboard):
 chat.link.confirmTrusted=:(Open.in.Browser_or_copy.to.clipboard?):
 chat.link.open=:(Open.in.Browser):
 
-menu.playdemo=Play Demo World
-menu.resetdemo=Reset Demo World
+menu.playdemo=:(Enter.Demo.World):
+menu.resetdemo=:(Reset.Demo.World):
 
 demo.day.1=This demo will last five game days, do your best!
 demo.day.2=Day Two
@@ -297,6 +328,7 @@ demo.help.title=Minecraft Demo Mode
 demo.help.fullWrapped=This demo will last 5 ingame days (about 1 hour and 40 minutes of real time). Check the achievements for hints! Have fun!
 demo.help.buy=Purchase Now!
 demo.help.later=Continue Playing!
+
 
 connect.connecting=:(Establishing.Connection...):
 connect.authorizing=:(Authorizing...):
@@ -368,6 +400,8 @@ options.ao.off=:(Disabled):
 options.ao.min=:(Minimum):
 options.ao.max=:(Maximum):
 options.anaglyph=:(3D.Anaglyph)
+options.chunks=:(Chunks:%s):
+options.framerate=:(FPS:%s):			
 options.framerateLimit=:(Performance)
 options.framerateLimit.max=Unrestricted
 options.difficulty=:(Difficulty)
@@ -379,6 +413,7 @@ options.difficulty.hardcore=Atomic Destruction
 options.graphics=:(Graphics)
 options.graphics.fancy=:(Fancy):
 options.graphics.fast=:(Fast):
+options.particles=:(Particles):				
 options.guiScale=:(GUI.Scale)
 options.guiScale.auto=:(Automatic):
 options.guiScale.small=:(Small):
@@ -448,6 +483,14 @@ options.attack.hotbar=:(Hotbar):
 options.showSubtitles=:(Show.Subtitles):
 options.realmsNotifications=:(Realms.Notifications):
 options.autoJump=:(Auto-Jump):
+options.narrator=Narrator
+options.narrator.off=Off
+options.narrator.all=Narrates all
+options.narrator.chat=Narrates chat
+options.narrator.system=Narrates system
+options.narrator.notavailable=Not available
+narrator.toast.disabled=Narrator Disabled
+narrator.toast.enabled=Narrator Enabled
 
 options.mipmapLevels=:(Mipmap.Levels):
 options.forceUnicodeFont=:(Force.Unicode.Font):
@@ -484,6 +527,9 @@ key.attack=Attack/Destroy
 key.use=Use Item/Place Block
 key.pickItem=Pick Block
 key.mouseButton=Button %1$s
+key.mouse.left=Left Click
+key.mouse.middle=Middle Click
+key.mouse.right=Right Click					   
 key.command=Open Command
 key.screenshot=Take Screenshot
 key.togglePerspective=Toggle Perspective
@@ -499,14 +545,16 @@ key.hotbar.6=Hotbar Slot 6
 key.hotbar.7=Hotbar Slot 7
 key.hotbar.8=Hotbar Slot 8
 key.hotbar.9=Hotbar Slot 9
-
+key.saveToolbarActivator=Save Toolbar Activator
+key.loadToolbarActivator=Load Toolbar Activator
+key.advancements=Advancements											   											   
 key.categories.movement=Movement
 key.categories.misc=Miscellaneous
 key.categories.multiplayer=Multiplayer
 key.categories.gameplay=Gameplay
 key.categories.ui=Game Interface
 key.categories.inventory=Inventory
-
+key.categories.creative=Creative Mode									 
 resourcePack.openFolder=:(Open.resource.pack.folder):
 resourcePack.title=:(Select.Resource.Pack):
 resourcePack.available.title=:(Available.Resource.Packs):
@@ -643,7 +691,7 @@ tile.flower1.name=Flower
 tile.flower1.dandelion.name=Irondweed
 tile.flower2.name=Flower
 tile.flower2.poppy.name=Fleuris Rouge
-tile.flower2.blueOrchid.name=Radiation Detector
+tile.flower2.blueOrchid.name=Geiger Flower
 tile.flower2.allium.name=Recplant
 tile.flower2.houstonia.name=Broken Weather Station
 tile.flower2.tulipRed.name=Runway Light
@@ -806,7 +854,6 @@ tile.dispenser.name=O.I Gas-Powered Material Launcher
 tile.dropper.name=O.I Ejector
 tile.musicBlock.name=Speaker
 tile.cake.name=First Aid Kit
-tile.bed.name=O.I. Folding Bed
 tile.bed.occupied=[Occupied]
 tile.bed.noSleep=[I'm not tired right now]
 tile.bed.notSafe=[I think there are enemies nearby...]
@@ -912,6 +959,55 @@ tile.shulkerBoxBrown.name=Brown Quantum Storage
 tile.shulkerBoxGreen.name=Green Quantum Storage
 tile.shulkerBoxRed.name=Red Quantum Storage
 tile.shulkerBoxBlack.name=Black Quantum Storage
+tile.glazedTerracottaWhite.name=White Glazed Terracotta
+tile.glazedTerracottaOrange.name=Orange Glazed Terracotta
+tile.glazedTerracottaMagenta.name=Magenta Glazed Terracotta
+tile.glazedTerracottaLightBlue.name=Light Blue Glazed Terracotta
+tile.glazedTerracottaYellow.name=Yellow Glazed Terracotta
+tile.glazedTerracottaLime.name=Lime Glazed Terracotta
+tile.glazedTerracottaPink.name=Pink Glazed Terracotta
+tile.glazedTerracottaGray.name=Gray Glazed Terracotta
+tile.glazedTerracottaSilver.name=Light Gray Glazed Terracotta
+tile.glazedTerracottaCyan.name=Cyan Glazed Terracotta
+tile.glazedTerracottaPurple.name=Purple Glazed Terracotta
+tile.glazedTerracottaBlue.name=Blue Glazed Terracotta
+tile.glazedTerracottaBrown.name=Brown Glazed Terracotta
+tile.glazedTerracottaGreen.name=Green Glazed Terracotta
+tile.glazedTerracottaRed.name=Red Glazed Terracotta
+tile.glazedTerracottaBlack.name=Black Glazed Terracotta
+tile.concrete.black.name=Black Concrete
+tile.concrete.red.name=Red Concrete
+tile.concrete.green.name=Asbetos Insulation
+tile.concrete.brown.name=Brown Concrete
+tile.concrete.blue.name=Blue Concrete
+tile.concrete.purple.name=Muted Blue Tiles
+tile.concrete.cyan.name=Cyan Concrete
+tile.concrete.silver.name=Light Gray Concrete
+tile.concrete.gray.name=Cracked Plaster
+tile.concrete.pink.name=Floral Wallpaper
+tile.concrete.lime.name=Lime Concrete
+tile.concrete.yellow.name=Fusebox
+tile.concrete.lightBlue.name=Light Blue Concrete
+tile.concrete.magenta.name=Magenta Concrete
+tile.concrete.orange.name=Power Wire Connector
+tile.concrete.white.name=White Wallpaper
+tile.concretePowder.black.name=Black Concrete Powder
+tile.concretePowder.red.name=Red Concrete Powder
+tile.concretePowder.green.name=Green Concrete Powder
+tile.concretePowder.brown.name=Brown Concrete Powder
+tile.concretePowder.blue.name=Blue Concrete Powder
+tile.concretePowder.purple.name=Purple Concrete Powder
+tile.concretePowder.cyan.name=Cyan Concrete Powder
+tile.concretePowder.silver.name=Light Gray Concrete Powder
+tile.concretePowder.gray.name=Gray Concrete Powder
+tile.concretePowder.pink.name=Pink Concrete Powder
+tile.concretePowder.lime.name=Lime Concrete Powder
+tile.concretePowder.yellow.name=Yellow Concrete Powder
+tile.concretePowder.lightBlue.name=Light Blue Concrete Powder
+tile.concretePowder.magenta.name=Magenta Concrete Powder
+tile.concretePowder.orange.name=Orange Concrete Powder
+tile.concretePowder.white.name=White Concrete Powder
+
 tile.structureVoid.name=Structure Void
 tile.structureBlock.name=Compressed Structure Block
 
@@ -1081,7 +1177,22 @@ item.dyePowder.orange.name=Sprockets
 item.dyePowder.white.name=Hydronic Battery
 item.sugar.name=Sugar
 item.cake.name=First Aid Kit
-item.bed.name=O.I. Folding Bed
+item.bed.black.name=Black Bed
+item.bed.red.name=Red Bed
+item.bed.green.name=O.I. Folding Bed
+item.bed.brown.name=Brown Bed
+item.bed.blue.name=Blue Bed
+item.bed.purple.name=Purple Bed
+item.bed.cyan.name=Cyan Bed
+item.bed.silver.name=Light Gray Bed
+item.bed.gray.name=Gray Bed
+item.bed.pink.name=Pink Bed
+item.bed.lime.name=Lime Bed
+item.bed.yellow.name=Yellow Bed
+item.bed.lightBlue.name=Light Blue Bed
+item.bed.magenta.name=Magenta Bed
+item.bed.orange.name=Orange Bed
+item.bed.white.name=White Bed
 item.diode.name=Redstone (R) Repeater
 item.comparator.name=Redstone (R) Comparator
 item.map.name=Map Book Pro
@@ -1094,7 +1205,10 @@ item.ghastTear.name=SecurAll Rotation Filter
 item.netherStalkSeeds.name=Moonshroom
 item.potion.name=Potion
 item.emptyPotion.name=Clean Water Bottle
-item.goldNugget.name=Gold Dust
+item.splash_potion.name=Grenade
+item.lingering_potion.name=Sticky Grenade
+item.end_crystal.name=End Crystal								 
+item.goldNugget.name=Rare Metal Dust
 item.glassBottle.name=Cola Bottle
 item.spiderEye.name=Hall Monitor Brains
 item.fermentedSpiderEye.name=Reprocessed Hall Monitor Brain
@@ -1109,7 +1223,7 @@ item.expBottle.name=Experience Tape
 item.fireball.name=Huggatron Charge
 item.writingBook.name=Book and BallpOint Pen
 item.writtenBook.name=Written Book
-item.flower_pot.name=Mini Cryo-Hab
+item.flowerPot.name=Mini Cryo-Hab
 item.emptyMap.name=Reset Map Book Pro
 item.carrots.name=Jarred Carrots
 item.carrotGolden.name=Jarred Golden Carrot
@@ -1169,8 +1283,8 @@ item.beetroot.name=BEE+ pill
 item.beetroot_seeds.name=BEE+ Condenser
 item.beetroot_soup.name=BEE+ Overdose
 item.dragon_breath.name=Mad Dragon's Breath
-item.elytra.name=TODO
-item.totem.name=TODO
+item.elytra.name=RoM Glider
+item.totem.name=L.I.F.E.
 item.shulkerShell.name=Anti-Grav Turret Fragment
 item.ironNugget.name=Scrap Bolts
 
@@ -1185,6 +1299,7 @@ container.enchant.lapis.one=1 Plutionium Container
 container.enchant.lapis.many=%d Plutionium Containers
 container.enchant.level.one=1 Experience Level
 container.enchant.level.many=%d Experience Levels
+container.enchant.level.requirement=Level requirement: %s														 
 container.enchant.clue=%s . . . ?
 container.repair=§aRepair & Name
 container.repair.cost=:(Improvement.Cost: %1$d):
@@ -1258,16 +1373,18 @@ entity.Snowball.name=Packed Dust Ball
 entity.Painting.name=Poster
 entity.ArmorStand.name=Armor Rack
 
+
+
 entity.Mob.name=Creature
 entity.Monster.name=Enemy
 
-
-entity.Blaze,name=He-3 Excavator
 entity.Creeper.name=Huggatron
 entity.Skeleton.name=Bandit
+entity.Stray.name=Experienced Bandit					   
 entity.Spider.name=Hall Monitor
 entity.Giant.name=Giant Lost
 entity.Zombie.name=Lost
+entity.Husk.name=Irradiated Lost
 entity.Husk.name=Irradiated Lost
 entity.Slime.name=Mega Amoeba
 entity.Ghast.name=SecurAll
@@ -1277,6 +1394,7 @@ entity.Endermite.name=Madness Mite
 entity.Silverfish.name=Rust Roach
 entity.CaveSpider.B-Class Hall Monitor
 entity.LavaSlime.name=P.W.C.
+entity.Blaze,name=He-3 Excavator								
 entity.MushroomCow.name=Funga Stoneback
 entity.Villager.name=Masked
 entity.ZombieVillager.name=Masked Lost
@@ -1292,7 +1410,8 @@ entity.PolarBear.name=TODO
 entity.EvocationIllager.name=TODO
 entity.Vex.name=TODO
 entity.VindicationIllager.name=TODO
-
+entity.Parrot.name=Parrot
+entity.IllusionIllager.name=Illusioner						 
 entity.Villager.farmer=Mechanic
 entity.Villager.fisherman=Fisherman
 entity.Villager.shepherd=Herder
@@ -1304,7 +1423,7 @@ entity.Villager.weapon=Weapon Smith
 entity.Villager.tool=Tool Smith
 entity.Villager.butcher=Butcher
 entity.Villager.leather=Leatherworker
-entity.Villager.nitwit=Civlian
+entity.Villager.nitwit=Civilian
 entity.Villager.cartographer=Satelite Mapper
 
 entity.Pig.name=Giant Rat
@@ -1328,9 +1447,9 @@ entity.Llama.name=L-1
 entity.PrimedTnt.name=Tactical Nuclear Terminator
 entity.FallingSand.name=Falling Block
 
-entity.Transportation Cart.name=Transportation Cart
-entity.Transportation CartHopper.name=Transportation Cart with Hopper
-entity.Transportation CartChest.name=Transportation Cart with Chest
+entity.Minecart.name=Transportation Cart
+entity.MinecartHopper.name=Transportation Cart with Hopper
+entity.MinecartChest.name=Transportation Cart with Chest
 entity.Boat.name=Boat
 
 entity.generic.name=unknown
@@ -1387,6 +1506,7 @@ death.attack.flyIntoWall=%1$s experienced kinetic energy
 death.attack.fireworks=%1$s went off with a bang
 
 deathScreen.respawn=:(Respawn):
+deathScreen.spectate=:(Spectate.world):								   
 deathScreen.deleteWorld=:(Delete_World):
 deathScreen.titleScreen=:(Title.Screen):
 deathScreen.score=:(Score):
@@ -1395,6 +1515,35 @@ deathScreen.hardcoreInfo=:(Respawn.Denied_Hardcore):
 deathScreen.title=:(You.Died):)
 deathScreen.leaveServer=:(Leave.Server):
 deathScreen.quit.confirm=:(Confirm.Quit?):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 effect.none=:(Effects:Null):
 effect.moveSpeed=:(Speed):
