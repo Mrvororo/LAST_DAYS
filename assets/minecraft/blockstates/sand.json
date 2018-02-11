@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "sand/sand", "weight": 32 },
+            { "model": "sand/sand1", "weight": 5 },
+            { "model": "sand/sand2", "weight": 5 },
+            { "model": "sand/sand3", "weight": 5 }, 
+            { "model": "sand/sand4", "weight": 2 }
+        ]
+    }
+}
