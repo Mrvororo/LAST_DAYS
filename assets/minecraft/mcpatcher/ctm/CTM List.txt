@@ -24,7 +24,9 @@ LDctm\
 	0159 - Stained Clay
         0173 - Block of Coal
 ZeroLevelsCTM\
-	0095 - Stained Glass   -not in file?
+	0095 - Stained Glass   -not in file?  -default optifine behaviour?
 Gwolfski\
 	yellow carpet
 	Pumpkin random faces
+Sukar42\
+	Lime glass panes
