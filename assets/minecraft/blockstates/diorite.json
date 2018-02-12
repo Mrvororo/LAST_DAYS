@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "normal": [ 
+            { "model": "diorite", "weight": 20 },
+            { "model": "diorite1", "weight": 3 }
+        ]
+    }
+}
