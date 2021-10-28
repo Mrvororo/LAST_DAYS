@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/crop",
+  "parent": "block/crop_small",
   "textures": {
-    "crop": "minecraft:block/potatoes_stage1",
-    "top": "minecraft:block/potatoes_top"
+    "crop": "block/potatoes_stage1",
+    "dish": "block/potatoes_dish"
   }
 }
