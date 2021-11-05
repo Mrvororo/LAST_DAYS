@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:block/crop",
+  "parent": "block/crop_small",
   "textures": {
-    "crop": "minecraft:block/beetroots_stage0",
-    "top": "minecraft:block/beetroots_top"
+    "crop": "block/beetroots_stage0",
+	"dish": "block/beetroots_dish"
   }
 }
