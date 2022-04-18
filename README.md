@@ -6,9 +6,9 @@ LAST DAYS
  * ~~The [Original Thread](http://www.minecraftforum.net/topic/30422-) by [doku](http://www.minecraftforum.net/user/14329-)~~
  * ~~The [Second Thread](http://www.minecraftforum.net/topic/126176-) by [History](http://www.minecraftforum.net/user/53403-)~~
  * ~~The [Third Thread](http://www.minecraftforum.net/topic/369814-) by [Croco15](http://www.minecraftforum.net/user/158674-)~~
- * The [Fourth (current) Thread](http://www.minecraftforum.net/topic/1059319-) by [dereksmith](http://www.minecraftforum.net/user/98378-)
+ * The [Fourth (current) Thread](http://www.minecraftforum.net/topic/1059319-) by [dereksmith](http://www.minecraftforum.net/user/98378-) (not really active)
 * **Discord**
- * Join our discord [here](https://discord.gg/QDXhjWx)!
+ * Join our discord [here](https://discord.gg/QDXhjWx)! (most active)
 * **Downloads:**
  * ~~[Home Page for Downloads and Info](https://krulunio.github.io/last_days/)~~
  * https://www.curseforge.com/minecraft/texture-packs/last-days
