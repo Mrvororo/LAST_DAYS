@@ -2,6 +2,6 @@
   "parent": "minecraft:block/template_glazed_terracotta",
   "textures": {
     "pattern": "minecraft:block/gray_glazed_terracotta",
-    "top": "minecraft:block/smooth_stone"
+    "top": "minecraft:block/gray_glazed_terracotta_top"
   }
 }
