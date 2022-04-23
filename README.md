@@ -13,4 +13,5 @@ LAST DAYS
  * ~~[Home Page for Downloads and Info](https://krulunio.github.io/last_days/)~~
  * https://www.curseforge.com/minecraft/texture-packs/last-days
  * https://resourcepack.net/last-days-resource-pack/
+ * Latest Dev build: Green "Code" Button in top right, download ZIP, extract in your texturepack dir.
  
